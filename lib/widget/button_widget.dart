@@ -24,15 +24,14 @@ class MyButton extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(0.2),
         child: ClipRRect(
-          // borderRadius: BorderRadius.circular(25),
-          child: Container(
+          child: Card(
             color: color,
             child: Center(
               child: Text(
                 buttonText,
                 style: TextStyle(
                   color: textColor,
-                  fontSize: 25,
+                  fontSize: 30,
                   fontWeight: FontWeight.bold,
                 ),
               ),
